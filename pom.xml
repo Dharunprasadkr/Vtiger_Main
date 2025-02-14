@@ -26,7 +26,6 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.10.2</version>
-    <scope>test</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
@@ -34,11 +33,14 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
-  	<dependency>
-  		<groupId>com.cmd.Shopify</groupId>
-  		<artifactId>Shopify</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.30</version>
+    <scope>provided</scope>
+</dependency>
+
   </dependencies>
 <build><plugins>
       <plugin>
