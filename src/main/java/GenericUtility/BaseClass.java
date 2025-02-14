@@ -69,6 +69,7 @@ import PomClass.LoginPage;
 			}
 		@AfterSuite(alwaysRun = true)
 		public void DBconnectionClosed() {
+			
 				System.out.println("database connection is closed");
 
 		}
